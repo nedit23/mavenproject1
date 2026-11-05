@@ -75,5 +75,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.NAME }}/selenium-testng-automation:latest
-            ${{ secrets.NAME }}/selenium-testng-automation:${{ github.sha }}
+            ${{ secrets.NAME }}/selenium-testng-automation1:latest
+            ${{ secrets.NAME }}/selenium-testng-automation1:${{ github.sha }}
